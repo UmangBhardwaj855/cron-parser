@@ -1,0 +1,20 @@
+{
+  "name": "cron-expression-parser",
+  "version": "1.0.0",
+  "description": "A cron expression parser that expands cron strings to show times at which they will run",
+  "main": "src/index.js",
+  "bin": {
+    "cron-parser": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": ["cron", "parser", "cli"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
